@@ -44,11 +44,21 @@
 .button2:hover {
   background-color: rgba(255,255,0,.75);
 }
+
+.footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+}
     </style>
+
+
+
     <h1>
       Welcome to Nick's Cage.
     </h1>
-    <h4 id="version"></h4>
+  
     <script>
         //version
 version = '1.11.0';
@@ -247,6 +257,10 @@ document.addEventListener("keydown", function(event){
       </div>
     </p>
   </body>
+  <div class="footer">
+    <h4 id="version"></h4>
+
+  </div>
 </html>
 
 <!-- 
