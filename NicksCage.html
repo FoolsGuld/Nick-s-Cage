@@ -44,6 +44,12 @@
 .button2:hover {
   background-color: rgba(255,255,0,.75);
 }
+			.footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+}
     </style>
     <h1>
       Welcome to Nick's Cage.
@@ -51,7 +57,7 @@
     <h4 id="version"></h4>
     <script>
         //version
-version = '1.11.0';
+version = '1.12.0';
 document.getElementById("version").innerHTML = 'v' + version;
 //all celebs
 var nicks = 0;
@@ -246,7 +252,11 @@ document.addEventListener("keydown", function(event){
         <div id="mrbeast"></div>
       </div>
     </p>
+	<div class="footer">
+	<a href="https://github.com/FoolsGuld/Nick-s-Cage">Github Source Code</a>
+</div>
   </body>
+
 </html>
 
 <!-- 
@@ -297,4 +307,6 @@ changed the toggle images text to "hide images" if the images are shown and vice
 moved the title and version number to the head of the page, not that it changes anything
 1.11.0-
 added will smith for 1/25,000.
+1.12.0-
+moved to github! Further updates will now be in the commits section of the page
 -->
